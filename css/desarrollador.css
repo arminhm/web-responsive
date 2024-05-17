@@ -1,0 +1,55 @@
+.contenedor{
+    background-color: rgb(15, 45, 109);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.contenedor::after{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: ' ';
+    background: #021155;  /* fallback for old browsers */
+    width: 100%;
+    height: 10px;
+    filter: blur(10px);
+    z-index: -1s;
+}
+.botones-contenedor{
+    padding-bottom: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+.btn-git{
+    display: block;
+        background: #abcef0;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        font-family: "Barlow Condensed" , sans-serif;
+        color: black;
+        margin-right: 10px;
+}
+
+.btn-volver{
+    display: block;
+        background: #abcef0;
+        border-radius: 5px;
+        height: 40px;
+        width: 150px;
+        font-family: "Barlow Condensed" , sans-serif;
+        color: black;
+        margin-right: 10px;
+}
+.titulo-desarrollador{
+    font-family: "Archivo Black", sans-serif;
+
+}
+
+
+
+    

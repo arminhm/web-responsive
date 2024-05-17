@@ -1,0 +1,97 @@
+.name-frm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.email-frm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.number-frm{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-text{
+    height: 20px;
+    margin-left: 15px;
+}
+.input-number{
+    height: 20px;
+    margin-left: 15px;
+}
+.input-email{
+    height: 20px;
+    margin-left: 15px;
+}
+
+.formulario{
+    background: #11998e;  /* fallback for old browsers */
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: "Caveat", cursive;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: white;
+}
+.formulario::after{
+    position: absolute;
+    bottom: 0px;
+    content: ' ';
+    background: #021155;  /* fallback for old browsers */
+    width: 100%;
+    height: 10px;
+    filter: blur(10px);
+    z-index: -1s;
+}
+.texto-contacto{
+    font-size: 35px;
+    padding-right: 50px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.t-name-f{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.t-number-f{
+    font-size: 25px;
+}
+.t-e-f{
+    font-size: 25px;
+}
+.botones-formulario{
+    padding-bottom: 50px;
+
+}
+.boton-pedir-info{
+    height: 30px;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    margin-left: 15px;
+    color: white;
+
+
+}
+.boton-volver{
+    height: 30px;
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+
+}
